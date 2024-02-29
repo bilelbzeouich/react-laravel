@@ -1,0 +1,179 @@
+.left {
+    padding: 7px;
+    text-align: justify;
+    width: 30%;
+    float: left;
+}
+
+.right {
+    padding: 7px;
+    text-align: justify;
+
+    float: right;
+
+}
+
+.right_button {
+    float: right;
+}
+
+.right_icon {
+    padding: 7px;
+    text-align: justify;
+    float: right;
+}
+
+
+
+.action #space {
+    padding: 7px;
+}
+
+.table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,
+.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.selectWrapper {
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.box-img {
+    width: 150;
+    height: 150;
+}
+
+.size-card {
+    width: 50%;
+    height: 150%;
+    display: inline-block
+}
+
+.size-card-cercle {
+    width: 30%;
+    height: 50%;
+    display: inline-block
+}
+
+.produit {
+    width: 15%;
+    border-radius: 10px;
+
+}
+
+.image_add {
+    width: 20%;
+    border-radius: 10px;
+}
+
+.icon-select {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.plus {
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    width: 10%;
+    float: right;
+}
+
+.float-right {
+    float: right;
+}
+
+.header {
+    color: #ffffff;
+}
+
+.loading-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button_right {
+    padding: 7px;
+    text-align: justify;
+
+    float: right;
+}
